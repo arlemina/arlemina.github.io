@@ -1,0 +1,175 @@
+body
+{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.header1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding:6%;
+    margin-bottom: 0px;
+}
+.header-title
+{
+    color: #dddddd;
+    font-family: 'Neris';
+    src: local(''),
+    url('..//fonts/Neris-Light.otf') format('otf');
+    font-size: 25pt;
+    text-align: center;
+    margin: 0px;
+}
+.lol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+
+p
+{
+    color: rgb(33, 26, 39);
+    font-family: 'Neris';
+    src: local(''),
+    url('..//fonts/Neris-Light.otf') format('otf');
+}
+
+
+.stripe__list
+{
+    color: #dddddd;
+    font-family: 'Neris';
+    src: local(''),
+    url('..//fonts/Neris-Light.otf') format('otf');
+        
+    padding-right: 5%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
+
+}
+
+.menu
+{
+    background-color: rgb(11, 6, 22);
+    box-shadow: 0px 1px 4px rgb(11, 6, 22);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.stripe__list-item
+{
+    font-size:14px;
+    line-height:1;
+    text-transform:uppercase;
+    white-space:nowrap;
+    padding-top:2px
+}
+
+.stripe__list-item:not(:last-child)
+{
+    padding-right:15px;
+    margin-right:15px;
+    border-right:1px solid #dddddd
+}
+
+.logo
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    margin-right: 600 px;
+}
+
+li 
+{
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: #dddddd;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+}
+
+header
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 400px;
+    background-image: url(../images/back.jpg);
+    box-shadow: 0px 3px 50px rgb(15, 13, 20);
+}
+
+.body
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items:stretch;
+}
+.body-border
+{
+margin: 7%;
+}
+
+.body-article
+{
+margin: 50px;
+}
+
+.article-text
+{
+text-align: justify;
+}
+
+.img-align
+{
+    text-align: center; 
+}
+
+.hs
+{
+    text-align: center;
+    color: rgb(33, 26, 39);
+    font-family: 'Neris';
+    src: local(''),
+    url('..//fonts/Neris-Light.otf') format('otf');
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(11, 6, 22);
+    padding: 20px;
+}
+
+.footer-text
+{
+    color: rgb(189, 187, 196);
+    font-family: 'Neris';
+    src: local(''),
+    url('..//fonts/Neris-Light.otf') format('otf');
+    margin: 0px;
+}
