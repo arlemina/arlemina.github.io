@@ -75,7 +75,8 @@ p
     line-height:1;
     text-transform:uppercase;
     white-space:nowrap;
-    padding-top:2px
+    padding-top:2px;
+    list-style-type: none;
 }
 
 .stripe__list-item:not(:last-child)
@@ -93,20 +94,16 @@ p
     margin-right: 600 px;
 }
 
-li 
-{
-    list-style-type: none;
-}
-
 a
 {
     text-decoration: none;
     color: #dddddd;
+    transition: color .2s linear;
 }
 
 a:hover 
 {
-    text-decoration: underline;
+        color: rgb(168, 100, 142);
 }
 
 header
@@ -153,6 +150,86 @@ text-align: justify;
     font-family: 'Neris';
     src: local(''),
     url('..//fonts/Neris-Light.otf') format('otf');
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+caption
+{
+    color: rgb(33, 26, 39);
+    padding: 10px;
+    font-weight: 700;
+    font-size: 25px;
+}
+table 
+{
+    font-family: 'Neris';
+    src: local(''),
+    url('..//fonts/Neris-Light.otf') format('otf');
+    text-align: center;
+    border-collapse: collapse;
+    background: #ffffff;
+    border: 2px solid rgb(113, 94, 122);;
+    margin: 30px auto;
+    margin-bottom: 60px;
+    background: linear-gradient(180deg, #f3d9f1, #d8d4ee);
+}
+
+th 
+{
+    border: 2px solid rgb(113, 94, 122);;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: #673683;
+ }
+
+td
+{
+    border: 2px solid rgb(113, 94, 122);
+    padding: 10px;
+}
+
+form
+{
+    font-size: 22px;
+    font-family: 'Neris';
+    src: local(''),
+    url('..//fonts/Neris-Light.otf') format('otf');
+    border-left: 2px solid rgb(113, 94, 122);
+    border-right: 2px solid rgb(113, 94, 122);
+    padding-left: 5%;
+    padding-right: 4%;
+    margin: 4%;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+input
+{
+    display: inline-block;
+    margin: 10px auto;
+    border: 2px solid #eee;
+    padding: 8px 20px;
+    font-size: 18px;
+}
+
+select
+{
+    display: inline-block;
+    margin: 10px auto;
+    border: 2px solid #eee;
+    padding: 5px 24px;
+    font-size: 18px;
+}
+
+textarea
+{
+    display: inline-block;
+    margin: 10px auto;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+    font-size: 18px;
 }
 
 footer
