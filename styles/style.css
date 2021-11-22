@@ -232,6 +232,17 @@ textarea
     font-size: 18px;
 }
 
+.button
+{
+    transition: all .2s linear;
+}
+
+.button:hover
+{
+color: #cfcfcf;
+background-color: rgb(31, 16, 41);
+}
+
 footer
 {
     display: flex;
