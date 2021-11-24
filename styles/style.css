@@ -273,6 +273,18 @@ p#first_yelloy
     url('..//fonts/Neris-Light.otf') format('otf');
 }
 
+.dark
+{
+    background-color: #171718;
+    color: #eee;
+}
+
+.light
+{
+    background-color: #eee;
+    color: #171718;
+}
+
 footer
 {
     display: flex;
