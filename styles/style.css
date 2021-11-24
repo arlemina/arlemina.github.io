@@ -273,17 +273,41 @@ p#first_yelloy
     url('..//fonts/Neris-Light.otf') format('otf');
 }
 
-.dark
-{
-    background-color: #171718;
-    color: #eee;
-}
 
 .light
 {
     background-color: #eee;
-    color: #171718;
+    color: #171718; 
 }
+
+.light input
+{
+    background-color: rgb(47, 40, 73);
+    color: #eee;
+}
+
+.dark
+{
+    background-color: #303047;
+}
+
+.dark p, .dark .hs, .dark #second_hide
+{
+    color: #eee;
+}
+
+.dark .footer-text
+{
+color: rgb(189, 187, 196);
+}
+
+.dark input
+{
+    background-color: #eee;
+    color: rgb(47, 40, 73);
+}
+
+
 
 footer
 {
