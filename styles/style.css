@@ -238,10 +238,21 @@ textarea
     transition: all .2s linear;
 }
 
+.dark-button
+{
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
 .button:hover
 {
 color: #cfcfcf;
 background-color: rgb(31, 16, 41);
+}
+
+#name:focus, #email:focus, #text:focus, #message:focus
+{
+    background-color: rgb(233, 214, 231);
 }
 
 p#first

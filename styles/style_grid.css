@@ -1,0 +1,112 @@
+
+  #One 
+  { 
+  grid-area: one;
+  background-color: rgb(122, 57, 165);
+  padding: 10%;
+  }
+
+  #Two
+  { 
+    grid-area: two;
+    background-color: rgb(122, 57, 165);
+    padding: 10%;
+  }
+
+  #Three
+  { 
+    grid-area: three;
+    background-color: rgb(122, 57, 165);
+    padding: 10%;
+  }
+
+  #Four
+  { 
+    grid-area: four;
+    background-color: rgb(122, 57, 165);
+    padding: 10%;
+  }
+
+  #Five
+  { 
+    grid-area: five;
+    background-color: rgb(122, 57, 165);
+    padding: 10%;
+  }
+
+  #Six
+  { 
+    grid-area: six;
+    background-color: rgb(122, 57, 165);
+    padding: 10%;
+  }
+
+  #Seven
+  { 
+    grid-area: seven;
+    background-color: rgb(122, 57, 165);
+    padding: 10%;
+  }
+
+  #Eight
+  { 
+    grid-area: eight;
+    background-color: rgb(122, 57, 165);
+    padding: 10%;
+  }
+
+  #Nine
+  { 
+    grid-area: nine;
+    background-color: rgb(122, 57, 165);
+    padding: 10%;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 678px, 294px, 38px;
+    grid-auto-rows: 50px;
+    grid-template-areas:
+      "one one one one one one two   two   two   seven"
+      "one one one one one one two   two   two   seven"
+      "one one one one one one two   two   two   seven"
+      "one one one one one one three three three seven"
+      "one one one one one one three three three seven"
+      "four four four five five five five five five seven"
+      "four four four five five five five five five seven"
+      "six six six eight eight eight nine nine nine seven"
+      "six six six eight eight eight nine nine nine seven";
+      gap: 12px; 
+      font-size: 18px;
+      color: rgb(255, 255, 255);
+}
+
+
+  /*
+
+  .container { 
+    display: grid; 
+    grid-template-columns:  repeat(3, 1700px);  
+    grid-template-rows: repeat(5, 530px); 
+    background-color: beige; 
+    gap: 80px; 
+    font-size: 100px;
+  }
+  .container > div { 
+    background-color: rgb(54, 94, 182); 
+  }
+
+  #One { 
+    grid-column: 1/3; 
+    grid-row: 1/4; 
+  } 
+  #Two { 
+   grid-row: 1/3; 
+  }  
+  #Five { 
+    grid-column: 4/2; 
+  }   
+  #Seven { 
+    grid-row: 6/1; 
+  }
+  */
