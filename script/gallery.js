@@ -61,6 +61,7 @@ let getImgWindow = document.querySelector(".img-window");
 let newImg = document.createElement("img");
 getImgWindow.appendChild(newImg);
 
+
 let calcNewImg;
 if(changeDir === 1) {
 calcNewImg = getLatestOpenedImg + 1;
@@ -75,7 +76,7 @@ calcNewImg = galleryImages.length;
 }
 }
 
-newImg.setAttribute("src", "images/img" + calcNewImg + ".jpg");
+newImg.setAttribute("src", "../images/gallery/" + calcNewImg + ".jpg");
 newImg.setAttribute("id", "current-img");
 
 getLatestOpenedImg = calcNewImg;
