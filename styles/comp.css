@@ -1,0 +1,163 @@
+.body-block
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items:stretch;
+}
+
+.block1{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:stretch;
+
+    padding: 40px;
+
+    color: rgb(32, 32, 32);
+    font-family: 'Neris';
+    src: local(''),
+    url('..//fonts/Neris-Light.otf') format('otf');
+}
+
+.block1-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:stretch;
+}
+
+.block1-text{
+    padding-left: 40px;
+}
+.block-text{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    padding: 20px;
+}
+
+.block2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:stretch;
+
+    padding: 40px;
+
+    background-color: rgb(44, 35, 60);
+    color: rgb(240, 240, 240);
+    font-family: 'Neris';
+    src: local(''),
+    url('..//fonts/Neris-Light.otf') format('otf');
+}
+
+.block2-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    margin:0px;
+    padding: 0px;
+}
+
+.block2-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    margin:0px;
+    padding: 0px;
+}
+
+.block2-text p{
+    padding-left: 15px;
+    padding-right: 15px;  
+    margin: 0px;
+}
+
+.block2-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:stretch;
+
+    background-color: rgb(44, 35, 60);
+    color: rgb(240, 240, 240);
+    font-family: 'Neris';
+    src: local(''),
+    url('..//fonts/Neris-Light.otf') format('otf');
+}
+
+
+.block3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:stretch;
+
+    padding: 40px;
+
+    color: rgb(32, 32, 32);
+    font-family: 'Neris';
+    src: local(''),
+    url('..//fonts/Neris-Light.otf') format('otf');
+}
+
+.block4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:stretch;
+
+    padding: 40px;
+
+    background-color: rgb(44, 35, 60);
+    color: rgb(240, 240, 240);
+    font-family: 'Neris';
+    src: local(''),
+    url('..//fonts/Neris-Light.otf') format('otf');
+}
+
+.block-title{
+    padding-top: 20px;
+    height: 80px;
+    background-color: rgb(44, 35, 60);
+    color: rgb(240, 240, 240);
+    font-family: 'Neris';
+    src: local(''),
+    url('..//fonts/Neris-Light.otf') format('otf');
+}
+
+.block-title2{
+    height: 30px;
+    color: rgb(32, 32, 32);
+    font-family: 'Neris';
+    src: local(''),
+    url('..//fonts/Neris-Light.otf') format('otf');
+}
+
+
+.img-padding{
+
+    padding: 20px;
+}
+
+
+.hs-left
+{
+    font-size: 25px;
+    text-align: left;
+    margin: 0px;
+    padding-left: 40px;
+}
+
+.hs-center
+{
+    font-size: 25px;
+    text-align: center;
+    margin: 0px;
+}
