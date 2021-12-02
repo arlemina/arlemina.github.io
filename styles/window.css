@@ -1,0 +1,31 @@
+.window{
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    background: linear-gradient(to left,#D3CCE3,#E9E4F0);
+    width: 300px;
+    height: 250px;
+    border: 3px solid rgb(60, 47, 70);
+
+    font-size: 20px;
+    font-family: 'Neris';
+    src: local(''),
+    url('..//fonts/Neris-Light.otf') format('otf');
+
+    padding: 4%;
+    
+}
+
+.sent{
+    bottom:5px;
+    transform: translateX(65%);
+    margin-top: auto;
+
+    display: inline-block;
+    border: 2px solid #eee;
+    padding: 8px;
+    font-size: 18px;
+}

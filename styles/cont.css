@@ -4,7 +4,7 @@
     justify-content: center;
     align-items:stretch;
 
-    background-color: rgb(104, 86, 145);
+    background-color: rgb(123, 108, 139);
 
     padding: 20px;
     margin: 20px;
@@ -53,4 +53,13 @@
     font-size: 25px;
     text-align: center;
     margin: 0px;
+}
+
+ul{
+    padding: 0px;
+}
+
+li{
+    
+    list-style-type: none;
 }
