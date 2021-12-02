@@ -1,0 +1,43 @@
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:stretch;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.flex-column-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+
+    margin: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    width: 400px;
+}
+
+.flex-row-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:stretch;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
+.margin-top{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:stretch;
+}

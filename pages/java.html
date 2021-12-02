@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная</title>
     <link rel="stylesheet" href="../styles/style.css" type="text/css">
-    <link rel="stylesheet" href="../styles/style_js.css">
-    <link rel="stylesheet" href="../styles/style_darktheme.css">
-    <link rel="stylesheet" href="../styles/style_grid.css">
-    <link rel="stylesheet" href="../styles/style_gallery.css">
+    <link rel="stylesheet" href="../styles/block-js.css">
+    <link rel="stylesheet" href="../styles/darktheme.css">
+    <link rel="stylesheet" href="../styles/grid.css">
+    <link rel="stylesheet" href="../styles/gallery.css">
+    <link rel="stylesheet" href="../styles/flex-js.css">
 </head>
 
 <body class="light">
@@ -60,50 +61,55 @@
         <div class="body">
             <div class="body-border">
             </div>
+            
+            
             <div class="body-article">
-            <article class="article-text">
-                <h1 class="hs">
-                    Задания по Java Script 
-                </h1>
-                <br>
-                <h2 class="hs">
-                    1. Задание "Cкрывающийся блок"
-                </h2> 
-                <p>В данном задании с помощью джава скрипт необходимо реализовать скрытие некоторого блого по нажатию кнопки, а также его появление по нажатию кнопки.</p>
-                <div class>
-                    <p id="first" onclick="first()">Показать блок</p>
-                    <div id="second_hide" style="display:none">
-                    
-                        Идейные соображения высшего порядка, а также укрепление и развитие структуры играет важную роль в формировании существенных финансовых и административных условий.
-                    
+            <article class="flex-column">
+            <h1 class="hs">
+            Задания по Java Script
+            </h1>
+            
+            <div class="flex-row-div">
+            
+            <div class="flex-column-div">
+                    <h2 class="hs">
+                        1. Задание "Cкрывающийся блок"
+                    </h2>
+                    <p class="p-block">В данном задании с помощью джава скрипт необходимо реализовать скрытие некоторого блока, а также его появление по нажатию кнопки.</p>
+                    <div>
+                         <p id="first" onclick="first()">Показать блок</p>
+                         <div id="second_hide" style="display:none">
+                          Идейные соображения высшего порядка, а также укрепление в формировании существенных условий.
+                         </div>
+                         <p id="first_yelloy"; style="display:none" onclick="first_yelloy()">Скрыть блок </p>
                     </div>
-                    <p id="first_yelloy"; style="display:none" onclick="first_yelloy()">Скрыть блок </p>
-                </div>
-                <br>
-                <h2 class="hs">
-                    2. Задание "Изменение темы сайта"
-                </h2>
-                    <div class>
-                        <div>
-                            <p><input class="dark-button" type="button" value="Изменить тему"></button></p>
-                        </div>
+            </div>
+
+            <div class="flex-column-div">
+                    <h2 class="hs">
+                        2. Задание "Изменение темы сайта"
+                    </h2>
+                    <input class="dark-button" type="button" value="Изменить тему"></input>
+            </div> 
+        </div> 
+
+            <div class="margin-top">
+                    <h2 class="hs">
+                        3. Задание "Grid"
+                    </h2>
+                    <div class="container">
+                        <div id="One">1</div>
+                        <div id="Two">2</div>
+                        <div id="Three">3</div>
+                        <div id="Four">4</div>
+                        <div id="Five">5</div>
+                        <div id="Six">6</div>
+                        <div id="Seven">7</div>
+                        <div id="Eight">8</div>
+                        <div id="Nine">9</div>
                     </div>
-                <br>
-                <h2 class="hs">
-                    3. Задание "Grid"
-                </h2>
-                <div class="container">
-                    <div id="One">1</div>
-                    <div id="Two">2</div>
-                    <div id="Three">3</div>
-                    <div id="Four">4</div>
-                    <div id="Five">5</div>
-                    <div id="Six">6</div>
-                    <div id="Seven">7</div>
-                    <div id="Eight">8</div>
-                    <div id="Nine">9</div>
-                </div>
-                <br>
+
+
 
                 <h2 class="hs">
                     4. Задание "Фотогалерея"
@@ -144,5 +150,6 @@
         </footer>
          <script src="../script/scr.js"></script>
          <script src="../script/gallery.js"></script>
+         <script src="../script/localstorage.js"></script>
         </body>
     </html>

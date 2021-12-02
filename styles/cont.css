@@ -64,3 +64,8 @@ li{
     
     list-style-type: none;
 }
+
+.check_it:hover{
+    background-color: rgb(72, 56, 87);
+    color: rgb(214, 214, 214);
+}

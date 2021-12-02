@@ -6,8 +6,8 @@
     transform: translate(-50%,-50%);
     
     background: linear-gradient(to left,#D3CCE3,#E9E4F0);
-    width: 300px;
-    height: 250px;
+    width: 260px;
+    height: 300px;
     border: 3px solid rgb(60, 47, 70);
 
     font-size: 20px;
@@ -20,12 +20,19 @@
 }
 
 .sent{
-    bottom:5px;
+    bottom:50px;
     transform: translateX(65%);
     margin-top: auto;
 
     display: inline-block;
     border: 2px solid #eee;
+
     padding: 8px;
     font-size: 18px;
+}
+
+.sent:hover{
+
+    background-color: rgb(72, 56, 87);
+    color: rgb(214, 214, 214);
 }
