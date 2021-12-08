@@ -41,25 +41,39 @@ parent.addEventListener('drop',function(event){
 });
 
 //объект элементов корзины
-let cart = {
-    'elem': {
-        name: "Пицца",
-        count: 0,
+let cart = [
+    {
+    id: "elem",
+    name: "Пицца",
+    count: 0,
     },
-    'elem2': {
-        name: "Торт",
-        count: 0,
+    
+    {
+    id: "elem2",
+    name: "Торт",
+    count: 0,
     }
-};
+    ];
+
 
 // увеличение кол-ва товаров
 const plusFunction = id => {
-    cart[id]['count']++;
+    if (id == "elem")
+    {
+    cart[0].count++;
+    }
+    else if (id == "elem2")
+    {
+        cart[1].count++;
+    }
     renderCart(); // рисует заново корзину
 }
 
 const renderCart = () => {
-    console.log(cart);
+    console.log(cart[0].count);
+    console.log(cart[1].count);
+
+    cartd.innerHTML = (`Пицца: ${cart[0].count}, Торт: ${cart[1].count}`);
 }
 
 renderCart();
