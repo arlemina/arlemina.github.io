@@ -4,6 +4,11 @@
 {
     cursor: pointer;
     transition: all .2s linear;
+    display: inline-block;
+    margin: 10px auto;
+    border: 2px solid #eee;
+    padding: 8px 20px;
+    font-size: 18px;
 }
 
 p#first
@@ -42,18 +47,14 @@ p#first_yelloy
     url('..//fonts/Neris-Light.otf') format('otf');
 }
 
-/*
-display: inline-block;
-border: 2px solid #eee;
-cursor: pointer;
+#div-for-local{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(140, 105, 163);
+}
 
-padding: 5px;
-padding-right: 25px;
-margin: 0px;
-
-font-size: 18px;
-text-indent: 22px; 
-line-height: 33px;
-
-width: 150px;
-*/
+#div-for-cookie{
+    width: 250px;
+    height: 100px;
+    background-color: red;
+}

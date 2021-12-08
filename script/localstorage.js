@@ -1,16 +1,15 @@
-let colorbutton = document.querySelector("#colorbutton");
-let textarea = document.querySelector("#text-area")
+let colorbutton = document.querySelector("#color-button");
+let div = document.querySelector("#div-for-local")
 
-colorbut.onclick=function(){
-    if(textarea.style.background == "red")
+colorbutton.onclick=function(){
+    if(div.style.background == "rgb(140, 105, 163)")
     {
-        textarea.style.background = "green";
-        localStorage.setItem('color',textarea.style.background);
+        div.style.background = "black";
+        localStorage.setItem('color',div.style.background);
     }
     else{
-        textarea.style.background = "red";
-        localStorage.setItem('color',textarea.style.background);
+        div.style.background = "rgb(140, 105, 163)";
+        localStorage.setItem('color',div.style.background);
     }
 }
-
-textarea.style.background = localStorage.getItem('color');
+div.style.background = localStorage.getItem('color');

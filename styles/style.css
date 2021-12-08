@@ -11,10 +11,9 @@ body
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
     padding:6%;
-    margin-bottom: 0px;
 }
+
 .header-title
 {
     color: #dddddd;
@@ -124,7 +123,7 @@ align-items:stretch;
 }
 .body-border
 {
-margin: 7%;
+margin: 6%;
 }
 
 .body-article
