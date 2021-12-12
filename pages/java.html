@@ -108,37 +108,14 @@
                         <div id="Eight">8</div>
                         <div id="Nine">9</div>
                     </div>
+            </div>
 
-            <div class="margin-top">
-                <h2 class="hs">
-                    4. Задание "Фотогалерея"
-                </h2>
-
-                <section id="index-gallery">
-
-                <div class="gallery-img">
-                    
-                    <div class="img1"><div><a href="#"></a></div></div>                 
-                    <div class="img2"><div><a href="#"></a></div></div>
-                    <div class="img3"><div><a href="#"></a></div></div>
-                
-                </div>
-                
-                <div class="gallery2">
-
-                    <div class="img4"><div><a href="#"></a></div></div>
-                    <div class="img5"><div><a href="#"></a></div></div>
-                    <div class="img6"><div><a href="#"></a></div></div>
-
-                </div>
-            </section>
-        </div>
 
     <div class="flex-row-div">
 
         <div class="flex-column-div">
             <h2 class="hs">
-                5. Задание "Cookies"
+                4. Задание "Cookies"
             </h2>
             <div id="div-for-cookie"></div>
             <input id="color-button1" class="dark-button" type="button" value="Изменить цвет"></input>
@@ -146,12 +123,36 @@
 
         <div class="flex-column-div">
             <h2 class="hs">
-                6. Задание "LocalStorage"
+                5. Задание "LocalStorage"
             </h2>
             <div id="div-for-local"></div>
             <input id="color-button" class="dark-button" type="button" value="Изменить цвет"></input>
         </div> 
     </div> 
+
+    <div class="margin-top">
+
+        <h2 class="hs">
+        6. Задание "Фотогалерея"
+        </h2>
+
+        <div class="flex-row-div">
+        <img src="../images/gallery/img1.jpg" class="img1" alt="">
+        </div>
+        <div class="flex-row-div">
+            <input id="left" type="button" onClick="left()" type="button" value="←"></input>
+
+            <img src="../images/gallery/img1.jpg" class="img2" alt="" onclick="f(1)">
+            <img src="../images/gallery/img2.jpg" class="img2" onclick="f(2)">
+            <img src="../images/gallery/img3.jpg" class="img2" alt="" onclick="f(3)">
+
+            <input id="right" type="button" onClick="right()" type="button" value="→"></input>
+        </div>
+        <div class="flex-row">
+            <button  class="button-start-stop" onclick="mult()">старт</button>
+            <button  class="button-start-stop" onclick="stop()">стоп</button>
+        </div>
+    </div>
     
 
     <div class="margin-top">

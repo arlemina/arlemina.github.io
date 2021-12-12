@@ -43,6 +43,13 @@
     align-items:stretch;
 }
 
+.flex-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+}
+
 
 ul{
     margin: 0px;

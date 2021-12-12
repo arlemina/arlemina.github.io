@@ -1,12 +1,4 @@
-.gallery-img, .gallery2
-{
-        display: -webkit-flex;   
-        -webkit-justify-content: flex-start;     
-        display: flex;
-        justify-content: center;
-}
-
-.img1, .img2, .img3, .img4, .img5, .img6
+.img1, .img2, .img3, .img4
 {
     background-position: center;
     background-size: cover;
@@ -18,104 +10,52 @@
     margin: 10px 10px;
 }
 
-.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover
+.filter
 {
     filter: grayscale(100%);
 }
 
 .img1
-{
-    background-image: url(../images/gallery/img1.jpg);
-}
+  { 
+  width:420px;
+  height:385px;
+  margin: 0px;
+  align-items: center;
+  }
 
 .img2
-{
-    background-image: url(../images/gallery/img2.jpg);
+  { 
+    width:140px;
+    height:140px;
+    margin: 5px;
+  }
+
+  #right, #left {
+        display: inline-block;
+        margin: 4px;
+        border: 2px solid rgba(238, 238, 238, 0);
+        background-color: rgba(102, 51, 153, 0);
+        color: rgb(27, 27, 27);
+        padding: 4px;
+        font-size: 50px;
+        cursor: pointer;
+        transition: all .2s linear;
+  }
+
+  #right:hover, #left:hover{
+    color: rgb(96, 64, 128);
 }
 
-.img3
-{
-    background-image: url(../images/gallery/img3.jpg);
+.bord{
+    border: 4px solid rgb(199, 184, 224);
 }
 
-.img4
+.button-start-stop
 {
-    background-image: url(../images/gallery/img4.jpg);
-}
-
-.img5
-{
-    background-image: url(../images/gallery/img5.jpg);
-}
-
-.img6
-{
-    background-image: url(../images/gallery/img6.jpg);
-}
-
-
-.img-window
-{
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.8);
-    position: fixed;
-    top:0;
-    left:0;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 100;
-}
-
-.img-window img
-{
-    max-width: 40vw;
-    max-height: 400vh;
-}
-
-.img-btn-next
-{
-    display: block;
-    border-radius: 4px;
-    position: fixed;
-    top: 270px;
-    z-index: 500;
-    font-family: 'Neris';
-    src: local(''),
-    url('..//fonts/Neris-Light.otf') format('otf');
-    font-size: 80px;
-    color: beige;
-    cursor: pointer;
-    text-transform: uppercase;
-}
-
-.img-btn-next:hover
-{
-    opacity: 0.8;
-    color: rgb(125, 76, 172);
-}
-
-.img-btn-prev
-{
-    display: block;
-    border-radius: 4px;
-    position: fixed;
-    top: 270px;
-    left: 80%;
-    z-index: 500;
-    font-family: 'Neris';
-    src: local(''),
-    url('..//fonts/Neris-Light.otf') format('otf');
-    font-size: 80px;
-    color: beige;
-    cursor: pointer;
-    text-transform: uppercase;
-}
-
-.img-btn-prev:hover
-{
-    opacity: 0.8;
-    color: rgb(125, 76, 172);
+    transition: all .2s linear;
+    display: inline-block;
+    margin: 0px;
+    padding: 8px 20px;
+    font-size: 18px;
 }
